@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/selva
+    username: root
+    password: Selva@2000
+  jpa:
+    hibernate.ddl-auto: none
+    generate-ddl: true
+    show-sql: true
